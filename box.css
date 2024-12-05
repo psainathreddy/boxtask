@@ -1,0 +1,36 @@
+.a,
+.b,
+.c,
+.d {
+    width: 400px;
+    /*height: 300px;*/
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 10px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.a {
+    background-color: red;
+    color: white;
+}
+
+.b {
+    background-color: blue;
+    color: white;
+}
+
+.c {
+    background-color: green;
+    color: white;
+}
+
+.d {
+    background-color: yellow;
+    counter-reset: violet;
+}

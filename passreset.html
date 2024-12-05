@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new password</title>
+</head>
+
+<body>
+    <center>
+        <h1>password reset successful</h1>
+    </center>
+    <form action="passreset" method="get">
+        <label for="user">username:</label>
+        <input type="text" name="user" id="user" required> </br>
+        <label for="change"> new password:</label>
+        <input type="text" name="change" id="change" required
+            pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[\d])(?=.*[@#$%]).{8,16}"> </br>
+        <a href="./loginsuccess.html">login</a>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>

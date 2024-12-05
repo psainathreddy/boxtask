@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login.html</title>
+</head>
+
+<body>
+    <center>
+        <h1>login page</h1>
+    </center>
+    <h1></h1>
+    <form action="./loginsuccess.html" method="get">
+        <label for="user">username:</label>
+        <input type="text" name="user" id="user" required> </br>
+        <label for="password">password:</label>
+        <input type="text" name="password" id="password" required
+            pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[\d])(?=.*[@#$%]).{8,16}"
+            title="min one caps and one special and number"> <br>
+        <input type="submit" value="login"> </br>
+        <a href="./forget.html">forget</a> </br>
+        <a href="./registerhere.html">register here</a> </b>
+    </form>
+</body>
+
+</html>

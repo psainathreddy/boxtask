@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tsrtc form</title>
+</head>
+
+<body>
+    <center><img src="tsrtc logo.jpg"></center>
+    <center>
+        <h1>Telangana state board transport corporation</h1>
+        <h2>General bus pass application form</h2>
+    </center>
+    <fieldset>
+        <legend>Application details</legend>
+        <form action="completed.html" method="get">
+            <label for="name">name:</label>
+            <input type="text" id="name" maxlength="20">
+            <label for="fathersname">fathername/guardian name:</label>
+            <input type="text" id="name"> <br>
+            <label for="date of birth">date of birth:</label>
+            <input type="text" id="text">
+            <label for="gender">gender:</label>
+            <input type="radio" id="male" name="male" value="male">
+            <label for="male">male:</label>
+            <input type="radio" id="female" name="female" value="female">
+            <label for="female">female:</label><br>
+            <label for="">age as on:</label>
+            <input type="checkbox" id="years" name="years">
+            <label for="years">years</label>
+            <input type="checkbox" id="months" name="months">
+            <label for="months">months</label>
+            <input type="checkbox" id="days" name="days">
+            <label for="days">days</label>
+            <label for="aadhar">aadhar:</label>
+            <input type="text" id="aadhar"><br>
+            <label for="whatsapp">whatsapp:</label>
+            <input type="numbers" id="numbers">
+            <label for="email">email id:</label>
+            <input type="numbers" id="email"> <br>
+            <label for="myfile">photo:</label>
+            <input type="file" id="myfile">
+        </form>
+    </fieldset>
+    <form><br>
+        <fieldset>
+            <legend> residential address details</legend>
+            <label for=" address">applicants address:</label>
+            <textarea id="addres" name="appicants address" rows="5" cols="5" maxlength="20"></textarea>
+            <label for="district">disrtict name:</label>
+            <select name="district" id="district name">
+                <option value="vikarabad">vikarabad</option>
+                <option value="medchel">medchel</option>
+                <option value="rangareddy">rangareddy</option>
+            </select><br>
+            <label for="mandal">mandal name:</label>
+            <select name="mandal" id="mandal name">
+                <option value="vikarabad">vikarabad</option>
+                <option value="nawabpet">nawabpet</option>
+                <option value="wanaparthy">wanaparthy</option>
+            </select>
+            <label for="village">village name:</label>
+            <select name="village" id="village name">
+                <option value="pathur">pathur</option>
+                <option value="pulusumamidi">pulusumamidi</option>
+                <option value="dannaram">dannaram</option>
+            </select><br>
+            <label for="pincode">pincode number:</label>
+            <input type="pincode" name="pincode" id="pincode">
+        </fieldset>
+        <fieldset> <br>
+            <legend>Pass type details</legend>
+            <label for="cityname">city:</label>
+            <select name="city" id="cityname">
+                <option value="hyderabad">hyderabad</option>
+                <option value="secunderabad">secunderabad</option>
+            </select> <br>
+            <label for="passname">pass:</label>
+            <select name="passname" id="passname">
+                <option value="general">general</option>
+                <option value="student">student</option>
+                <option value="route">route</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>mode of payment and pass collection</legend>
+            <label for="payment">payment mode:</label>
+            <select name="payment" id="payment">
+                <option value="cash">cash</option>
+                <option value="upi">upi</option>
+                <option value="net banking">net banking</option>
+            </select> <br>
+            <label for="pass mode">pass delivery mode:</label>
+            <select name="pass mode" id="pass mode">
+                <option value="online">online</option>
+                <option value="at counter">at counter</option>
+            </select> <br>
+            <label for="center">center at which you want to collect pass:</label>
+            <select name="center" id="center">
+                <option value="hyderabad">hyderabad</option>
+                <option value="secunderabad">secunderabad</option>
+            </select>
+        </fieldset>
+        <center><input type="submit" value="submit"></center>
+    </form>
+
+</body>
+
+</html>
