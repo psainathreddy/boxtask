@@ -1,0 +1,30 @@
+.main {
+    /*border: 2px solid;*/
+    height: 600px;
+    margin: 10px;
+
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    /*  border: 2px solid;*/
+    margin: 10px;
+    width: 300px;
+    height: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
